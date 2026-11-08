@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+
+  "pattern":
+  [
+    "DGD",
+    "C#C",
+    "FPF"
+  ],
+  "key":
+  {
+    "D": {"item": "powergrid:modular_display"},
+    "G": {"tag": "c:glass_panes"},
+    "C": {"tag": "c:copper_coils"},
+    "#": {"item": "powergrid:integrated_circuit"},
+    "F": {"item": "powergrid:conductive_casing"},
+    "P": {"item": "create:precision_mechanism"}
+  },
+  "result": {"count": 1, "id": "computercraft:computer_normal"}
+}

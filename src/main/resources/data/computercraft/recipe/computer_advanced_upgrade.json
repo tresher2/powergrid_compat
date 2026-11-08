@@ -1,0 +1,20 @@
+{
+  "type": "computercraft:transform_shaped",
+  "category": "redstone",
+  "function": [{"type": "computercraft:copy_components", "from": {"item": "computercraft:computer_normal"}}],
+
+  "pattern":
+     [
+       "#G#",
+       "#C#",
+       "#M#"
+     ],
+  "key":
+  {
+    "M": {"item": "powergrid:electrical_gizmo"},
+    "G": {"item": "powergrid:crt"},
+    "C": {"item": "computercraft:computer_normal"},
+    "#": {"item": "create:brass_ingot"}
+  },
+  "result": {"count": 1, "id": "computercraft:computer_advanced"}
+}

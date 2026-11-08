@@ -1,2 +1,11 @@
 /give Dev powergridcompat:stageeditor
 /give Dev powergrid_compat:stageeditor
+/kubejs hand
+/time set day
+/gamerule doDaylightCycle false
+/kubejs hand
+/kubejs errors
+/kubejs errors server
+/kubejs hand
+/gamerule doWeatherCycle false
+/weather clear

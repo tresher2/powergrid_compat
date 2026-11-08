@@ -96,10 +96,10 @@ description="${mod_description}"
     ordering="AFTER"
     side="BOTH"
 [[dependencies.${mod_id}]]
-    modId="computercraft"
+    modId="kubejs"
     type="optional"
-    versionRange="[1.121.0,)"
-    ordering="AFTER"
+    versionRange="[2101.7.2,)"
+    ordering="BEFORE"
     side="BOTH"
 
 # Features are specific properties of the game environment, that you may want to declare you require. This example declares
