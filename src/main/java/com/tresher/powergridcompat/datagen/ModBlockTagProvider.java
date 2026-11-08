@@ -1,0 +1,83 @@
+package com.tresher.powergridcompat.datagen;
+/*
+import com.tresher.powergridcompat.OreSources;
+import com.tresher.powergridcompat.block.ModBlocks;
+import net.minecraft.core.HolderLookup;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.data.PackOutput;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.BlockTags;
+import net.minecraft.tags.TagKey;
+import net.minecraft.world.level.block.Block;
+import net.neoforged.fml.ModList;
+import net.neoforged.neoforge.common.data.BlockTagsProvider;
+import net.neoforged.neoforge.common.data.ExistingFileHelper;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.concurrent.CompletableFuture;
+
+public class ModBlockTagProvider extends BlockTagsProvider {
+    public ModBlockTagProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider, @Nullable ExistingFileHelper existingFileHelper) {
+        super(output, lookupProvider, OreSources.MOD_ID, existingFileHelper);
+    }
+    @Override
+    protected void addTags(HolderLookup.Provider provider) {
+        TagKey<Block> createNonBreakable = TagKey.create(
+                Registries.BLOCK,
+                ResourceLocation.fromNamespaceAndPath("create", "non_breakable")
+        );
+
+        TagKey<Block> createNonMovable = TagKey.create(
+                Registries.BLOCK,
+                ResourceLocation.fromNamespaceAndPath("create", "non_movable")
+        );
+        TagKey<Block> simulatedNonMovable = TagKey.create(
+                Registries.BLOCK,
+                ResourceLocation.fromNamespaceAndPath("simulated", "non_movable")
+        );
+
+
+        Block[] sourceBlocks = new Block[]{
+                ModBlocks.IRON_SOURCE_BLOCK.get(),
+                ModBlocks.COPPER_SOURCE_BLOCK.get(),
+                ModBlocks.GOLD_SOURCE_BLOCK.get(),
+                ModBlocks.ZINC_SOURCE_BLOCK.get(),
+                ModBlocks.COAL_SOURCE_BLOCK.get(),
+                ModBlocks.DIAMOND_SOURCE_BLOCK.get(),
+                ModBlocks.EMERALD_SOURCE_BLOCK.get(),
+                ModBlocks.NETHER_QUARTZ_SOURCE_BLOCK.get(),
+                ModBlocks.REDSTONE_SOURCE_BLOCK.get(),
+                ModBlocks.LAPIS_SOURCE_BLOCK.get(),
+                ModBlocks.ANCIENT_DEBRIS_SOURCE_BLOCK.get(),
+                ModBlocks.NETHER_GOLD_SOURCE_BLOCK.get(),
+
+        };
+        Block[] mineableStone = new Block[]{
+                ModBlocks.IRON_SOURCE_BLOCK.get(),
+                ModBlocks.COPPER_SOURCE_BLOCK.get(),
+                ModBlocks.COAL_SOURCE_BLOCK.get(),
+                ModBlocks.NETHER_QUARTZ_SOURCE_BLOCK.get(),
+                ModBlocks.LAPIS_SOURCE_BLOCK.get(),
+        };
+        Block[] mineableIron = new Block[]{
+                ModBlocks.GOLD_SOURCE_BLOCK.get(),
+                ModBlocks.ZINC_SOURCE_BLOCK.get(),
+                ModBlocks.DIAMOND_SOURCE_BLOCK.get(),
+                ModBlocks.REDSTONE_SOURCE_BLOCK.get(),
+                ModBlocks.EMERALD_SOURCE_BLOCK.get(),
+        };
+        Block[] mineableDiamond = new Block[]{
+                ModBlocks.ANCIENT_DEBRIS_SOURCE_BLOCK.get(),
+        };
+
+        tag(BlockTags.MINEABLE_WITH_PICKAXE).add(sourceBlocks);
+        tag(BlockTags.NEEDS_STONE_TOOL).add(mineableStone);
+        tag(BlockTags.NEEDS_IRON_TOOL).add(mineableIron);
+        tag(BlockTags.NEEDS_DIAMOND_TOOL).add(mineableDiamond);
+
+        tag(simulatedNonMovable).add(sourceBlocks);
+        tag(createNonBreakable).add(sourceBlocks);
+        tag(createNonMovable).add(sourceBlocks);
+
+    }
+}*/
