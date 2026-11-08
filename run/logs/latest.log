@@ -1,14 +1,18 @@
-[08нояб.2026 00:25:23.312] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatadev, --assetIndex, 17, --assetsDir, C:\\Users\\user\\.gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.fmlVersion, 4.0.45, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.265, --fml.neoFormVersion, 20240808.144430, --mod, examplemod, --all, --output, G:\MY mods\powergrid-compat\src\generated\resources, --existing, G:\MY mods\powergrid-compat\src\main\resources]
-[08нояб.2026 00:25:23.318] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.7+6-LTS
-[08нояб.2026 00:25:23.321] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.7 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
-[08нояб.2026 00:25:23.572] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatadev
-[08нояб.2026 00:25:23.666] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/user/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.4+mixin.0.8.7/26d01f0567ab46e9ca0d2ed89d0ecc11aadbd433/sponge-mixin-0.16.4+mixin.0.8.7.jar%23138!/ Service=ModLauncher Env=CLIENT
-[08нояб.2026 00:25:25.469] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 17 dependencies adding them to mods collection
-[08нояб.2026 00:25:25.471] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[08нояб.2026 16:22:32.841] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientdev, --version, 21.1.265, --assetIndex, 17, --assetsDir, C:\\Users\\user\\.gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.fmlVersion, 4.0.45, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.265, --fml.neoFormVersion, 20240808.144430]
+[08нояб.2026 16:22:32.849] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.7+6-LTS
+[08нояб.2026 16:22:32.852] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.7 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[08нояб.2026 16:22:33.114] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[08нояб.2026 16:22:33.346] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[08нояб.2026 16:22:33.692] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[08нояб.2026 16:22:33.873] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/user/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.4+mixin.0.8.7/26d01f0567ab46e9ca0d2ed89d0ecc11aadbd433/sponge-mixin-0.16.4+mixin.0.8.7.jar%23138!/ Service=ModLauncher Env=CLIENT
+[08нояб.2026 16:22:34.257] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce GTX 1660 SUPER/PCIe/SSE2 GL version 4.6.0 NVIDIA 610.47, NVIDIA Corporation
+[08нояб.2026 16:22:35.693] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 19 dependencies adding them to mods collection
+[08нояб.2026 16:22:35.696] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
 		Architectury 13.0.11 (architectury)
+		CC: Tweaked 1.121.0 (computercraft)
 		Create 6.0.10 (create)
 		Create Aeronautics 1.3.0 (aeronautics)
 		Create Aeronautics 1.3.0 (aeronautics_bundled)
@@ -26,28 +30,406 @@
 		Sable 2.0.3 (sable)
 		Sable Companion 1.6.0 (sablecompanion)
 		Veil 4.1.4 (veil)
-[08нояб.2026 00:25:27.054] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[08нояб.2026 00:25:27.058] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
-[08нояб.2026 00:25:27.127] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatadev' with arguments [--gameDir, ., --assetsDir, C:\Users\user\.gradle\caches\neoformruntime\assets, --assetIndex, 17, --mod, examplemod, --all, --output, G:\MY mods\powergrid-compat\src\generated\resources, --existing, G:\MY mods\powergrid-compat\src\main\resources]
-[08нояб.2026 00:25:27.330] [main/WARN] [mixin/]: Reference map 'simulated.refmap.json' for simulated.mixins.json could not be read. If this is a development environment you can ignore this message
-[08нояб.2026 00:25:27.337] [main/WARN] [mixin/]: Reference map 'aeronautics.refmap.json' for aeronautics.mixins.json could not be read. If this is a development environment you can ignore this message
-[08нояб.2026 00:25:27.350] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[08нояб.2026 00:25:27.364] [main/INFO] [dev.ryanhcode.sable.mixin.AbstractSableMixinPlugin/]: Using Vanilla renderer mixins
-[08нояб.2026 00:25:27.365] [main/INFO] [dev.ryanhcode.sable.mixin.AbstractSableMixinPlugin/]: Using Vanilla renderer mixins
-[08нояб.2026 00:25:27.367] [main/WARN] [mixin/]: Reference map 'offroad.refmap.json' for offroad.mixins.json could not be read. If this is a development environment you can ignore this message
-[08нояб.2026 00:25:28.261] [main/WARN] [mixin/]: Error loading class: net/irisshaders/iris/pipeline/PipelineManager (java.lang.ClassNotFoundException: net.irisshaders.iris.pipeline.PipelineManager)
-[08нояб.2026 00:25:28.262] [main/WARN] [mixin/]: @Mixin target net.irisshaders.iris.pipeline.PipelineManager was not found veil.neoforge.mixins.json:client.perspective.iris.PipelineManagerMixin from mod veil
-[08нояб.2026 00:25:29.330] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$ScheduledForRemoval (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$ScheduledForRemoval)
-[08нояб.2026 00:25:29.731] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.5).
-[08нояб.2026 00:25:29.882] [main/INFO] [net.neoforged.neoforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [examplemod]
-[08нояб.2026 00:25:39.236] [modloading-worker-0/INFO] [Veil/]: Veil is initializing.
-[08нояб.2026 00:25:39.369] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.265, for MC 1.21.1
-[08нояб.2026 00:25:39.712] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.10 initializing! Commit hash: ac0c444d9828da3453ae8cc65338e8de063286fb
-[08нояб.2026 00:25:40.162] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
-[08нояб.2026 00:25:40.171] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 7.425 milliseconds
-[08нояб.2026 00:25:40.195] [modloading-worker-0/INFO] [org.patryk3211.powergrid.PowerGrid/]: Power grid starting, prepare to be electrocuted
-[08нояб.2026 00:25:40.228] [modloading-worker-0/INFO] [org.patryk3211.powergrid.PowerGrid/]: Native backend loaded successfully
-[08нояб.2026 00:25:42.910] [modloading-worker-0/INFO] [dev.ryanhcode.sable.Sable/]: Sable loaded!
-[08нояб.2026 00:25:42.933] [modloading-worker-0/WARN] [dev.ryanhcode.sable.Sable/]: NOTE: Sable is loaded with Flywheel. Sable contains extensive shader overrides and a full light-storage replacement. Expect this to cause compatibility issues. If issues arise, please report them to the Sable issue tracker (https://github.com/ryanhcode/sable/issues) instead of the Flywheel issue tracker.
-[08нояб.2026 00:25:46.702] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/G:/MY%20mods/powergrid-compat/build/moddev/artifacts/neoforge-21.1.265.jar%23197!/assets/.mcassetsroot' uses unexpected schema
-[08нояб.2026 00:25:46.703] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/G:/MY%20mods/powergrid-compat/build/moddev/artifacts/neoforge-21.1.265.jar%23197!/data/.mcassetsroot' uses unexpected schema
+[08нояб.2026 16:22:37.342] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[08нояб.2026 16:22:37.346] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[08нояб.2026 16:22:37.419] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientdev' with arguments [--version, 21.1.265, --gameDir, ., --assetsDir, C:\Users\user\.gradle\caches\neoformruntime\assets, --assetIndex, 17]
+[08нояб.2026 16:22:37.598] [main/WARN] [mixin/]: Reference map 'simulated.refmap.json' for simulated.mixins.json could not be read. If this is a development environment you can ignore this message
+[08нояб.2026 16:22:37.609] [main/WARN] [mixin/]: Reference map 'aeronautics.refmap.json' for aeronautics.mixins.json could not be read. If this is a development environment you can ignore this message
+[08нояб.2026 16:22:37.627] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[08нояб.2026 16:22:37.656] [main/INFO] [dev.ryanhcode.sable.mixin.AbstractSableMixinPlugin/]: Using Vanilla renderer mixins
+[08нояб.2026 16:22:37.657] [main/INFO] [dev.ryanhcode.sable.mixin.AbstractSableMixinPlugin/]: Using Vanilla renderer mixins
+[08нояб.2026 16:22:37.658] [main/WARN] [mixin/]: Reference map 'offroad.refmap.json' for offroad.mixins.json could not be read. If this is a development environment you can ignore this message
+[08нояб.2026 16:22:38.519] [main/WARN] [mixin/]: Error loading class: net/irisshaders/iris/pipeline/PipelineManager (java.lang.ClassNotFoundException: net.irisshaders.iris.pipeline.PipelineManager)
+[08нояб.2026 16:22:38.520] [main/WARN] [mixin/]: @Mixin target net.irisshaders.iris.pipeline.PipelineManager was not found veil.neoforge.mixins.json:client.perspective.iris.PipelineManagerMixin from mod veil
+[08нояб.2026 16:22:39.659] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$ScheduledForRemoval (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$ScheduledForRemoval)
+[08нояб.2026 16:22:39.735] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.5).
+[08нояб.2026 16:22:42.178] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 609 milliseconds
+[08нояб.2026 16:22:42.401] [main/WARN] [oshi.util.platform.windows.PerfDataUtil/]: Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
+[08нояб.2026 16:22:42.402] [main/WARN] [oshi.util.platform.windows.PerfCounterQueryHandler/]: Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
+[08нояб.2026 16:22:42.402] [main/WARN] [oshi.util.platform.windows.PerfCounterQuery/]: Disabling further attempts to query Paging File.
+[08нояб.2026 16:22:44.103] [main/WARN] [oshi.util.platform.windows.WmiQueryHandler/]: COM exception: Invalid Query: SELECT PERCENTUSAGE FROM Win32_PerfRawData_PerfOS_PagingFile
+[08нояб.2026 16:22:52.528] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[08нояб.2026 16:22:52.531] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[08нояб.2026 16:22:52.535] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[08нояб.2026 16:22:52.537] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[08нояб.2026 16:22:52.539] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[08нояб.2026 16:22:52.823] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/G:/MY%20mods/powergrid-compat/build/moddev/artifacts/neoforge-21.1.265.jar%23198!/assets/.mcassetsroot' uses unexpected schema
+[08нояб.2026 16:22:52.823] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/G:/MY%20mods/powergrid-compat/build/moddev/artifacts/neoforge-21.1.265.jar%23198!/data/.mcassetsroot' uses unexpected schema
+[08нояб.2026 16:22:52.863] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[08нояб.2026 16:22:52.873] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[08нояб.2026 16:22:52.999] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[08нояб.2026 16:22:53.590] [modloading-worker-0/INFO] [Veil/]: Veil is initializing.
+[08нояб.2026 16:22:53.701] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.265, for MC 1.21.1
+[08нояб.2026 16:22:54.251] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.10 initializing! Commit hash: ac0c444d9828da3453ae8cc65338e8de063286fb
+[08нояб.2026 16:22:54.398] [modloading-worker-0/INFO] [org.patryk3211.powergrid.PowerGrid/]: Power grid starting, prepare to be electrocuted
+[08нояб.2026 16:22:54.412] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[08нояб.2026 16:22:54.446] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 32.62 milliseconds
+[08нояб.2026 16:22:54.452] [modloading-worker-0/INFO] [org.patryk3211.powergrid.PowerGrid/]: Native backend loaded successfully
+[08нояб.2026 16:22:56.736] [modloading-worker-0/INFO] [dev.ryanhcode.sable.Sable/]: Sable loaded!
+[08нояб.2026 16:22:56.758] [modloading-worker-0/WARN] [dev.ryanhcode.sable.Sable/]: NOTE: Sable is loaded with Flywheel. Sable contains extensive shader overrides and a full light-storage replacement. Expect this to cause compatibility issues. If issues arise, please report them to the Sable issue tracker (https://github.com/ryanhcode/sable/issues) instead of the Flywheel issue tracker.
+[08нояб.2026 16:23:01.172] [Render thread/INFO] [Veil/]: GL Debug supported
+[08нояб.2026 16:23:01.670] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: [powergrid_compat]
+[08нояб.2026 16:23:02.253] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/emi, mod/veil, mod/simulated, mod/jade, mod/architectury, mod/powergrid, mod/computercraft, mod/jei, mod/aeronautics, mod/aeronautics_bundled, mod/sablecompanion, mod/flywheel, mod/ponder, mod/create, mod/sable, mod/offroad, mod/neoforge, mod/powergrid_compat
+[08нояб.2026 16:23:02.392] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [computercraft] Starting version check at https://api.modrinth.com/updates/cc-tweaked/forge_updates.json
+[08нояб.2026 16:23:02.432] [Worker-Main-15/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[08нояб.2026 16:23:02.472] [Worker-Main-1/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[08нояб.2026 16:23:03.467] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [computercraft] Found status: BETA Current: 1.121.0 Target: null
+[08нояб.2026 16:23:03.468] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [create] Starting version check at https://api.modrinth.com/updates/create/forge_updates.json?neoforge=only
+[08нояб.2026 16:23:03.683] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [create] Found status: OUTDATED Current: 6.0.10 Target: 6.0.10+mc1.21.1
+[08нояб.2026 16:23:07.347] [Render thread/INFO] [Veil/]: Loaded 0 shader modifications
+[08нояб.2026 16:23:07.581] [Render thread/INFO] [Veil/]: Loaded 29 shaders from: pinwheel/shaders/program
+[08нояб.2026 16:23:07.657] [Worker-Main-21/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.vanilla.VanillaPlugin
+[08нояб.2026 16:23:07.710] [Worker-Main-21/INFO] [snownee.jade.Jade/]: Bootstrapped plugin from snownee.jade.addon.vanilla.VanillaPlugin in 50.46 ms
+[08нояб.2026 16:23:07.719] [Worker-Main-21/INFO] [snownee.jade.Jade/]: Loaded plugin from snownee.jade.addon.vanilla.VanillaPlugin in 59.49 ms
+[08нояб.2026 16:23:07.719] [Worker-Main-21/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.universal.UniversalPlugin
+[08нояб.2026 16:23:07.728] [Worker-Main-21/INFO] [snownee.jade.Jade/]: Bootstrapped plugin from snownee.jade.addon.universal.UniversalPlugin in 5.827 ms
+[08нояб.2026 16:23:07.729] [Worker-Main-21/INFO] [snownee.jade.Jade/]: Loaded plugin from snownee.jade.addon.universal.UniversalPlugin in 6.240 ms
+[08нояб.2026 16:23:07.729] [Worker-Main-21/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.debug.DebugPlugin
+[08нояб.2026 16:23:07.732] [Worker-Main-21/INFO] [snownee.jade.Jade/]: Bootstrapped plugin from snownee.jade.addon.debug.DebugPlugin in 2.265 ms
+[08нояб.2026 16:23:07.732] [Worker-Main-21/INFO] [snownee.jade.Jade/]: Loaded plugin from snownee.jade.addon.debug.DebugPlugin in 2.682 ms
+[08нояб.2026 16:23:07.732] [Worker-Main-21/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.core.CorePlugin
+[08нояб.2026 16:23:07.738] [Worker-Main-21/INFO] [snownee.jade.Jade/]: Bootstrapped plugin from snownee.jade.addon.core.CorePlugin in 4.637 ms
+[08нояб.2026 16:23:07.738] [Worker-Main-21/INFO] [snownee.jade.Jade/]: Loaded plugin from snownee.jade.addon.core.CorePlugin in 4.919 ms
+[08нояб.2026 16:23:07.738] [Worker-Main-21/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.access.AccessibilityPlugin
+[08нояб.2026 16:23:07.742] [Worker-Main-21/INFO] [snownee.jade.Jade/]: Bootstrapped plugin from snownee.jade.addon.access.AccessibilityPlugin in 3.218 ms
+[08нояб.2026 16:23:07.742] [Worker-Main-21/INFO] [snownee.jade.Jade/]: Loaded plugin from snownee.jade.addon.access.AccessibilityPlugin in 3.478 ms
+[08нояб.2026 16:23:07.795] [Worker-Main-16/INFO] [PonderIndex/]: Registering Ponder Scenes took 193.0 ms
+[08нояб.2026 16:23:07.804] [Worker-Main-16/INFO] [PonderIndex/]: Registering Ponder Tags took 8.526 ms
+[08нояб.2026 16:23:08.062] [Render thread/WARN] [net.minecraft.client.resources.language.ClientLanguage/]: Skipped language file: powergrid_compat:lang/ru_ru.json (com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Expected name at line 3 column 2 path $.item.powergrid_compat.stageeditor)
+[08нояб.2026 16:23:08.080] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[08нояб.2026 16:23:08.080] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[08нояб.2026 16:23:08.167] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Динамики (Realtek High Definition Audio)
+[08нояб.2026 16:23:08.168] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[08нояб.2026 16:23:08.296] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[08нояб.2026 16:23:08.320] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[08нояб.2026 16:23:08.321] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[08нояб.2026 16:23:08.321] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[08нояб.2026 16:23:08.322] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[08нояб.2026 16:23:08.330] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[08нояб.2026 16:23:08.331] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[08нояб.2026 16:23:08.331] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[08нояб.2026 16:23:08.331] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[08нояб.2026 16:23:08.425] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/particles.png-atlas
+[08нояб.2026 16:23:08.428] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[08нояб.2026 16:23:08.429] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[08нояб.2026 16:23:08.429] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[08нояб.2026 16:23:08.429] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[08нояб.2026 16:23:08.465] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[08нояб.2026 16:23:08.541] [Render thread/WARN] [Veil/]: Shader computercraft/monitor_tbo could not find uniform named CursorColour in the specified shader program.
+[08нояб.2026 16:23:08.541] [Render thread/WARN] [Veil/]: Shader computercraft/monitor_tbo could not find uniform named CursorPos in the specified shader program.
+[08нояб.2026 16:23:08.541] [Render thread/WARN] [Veil/]: Shader computercraft/monitor_tbo could not find uniform named Height in the specified shader program.
+[08нояб.2026 16:23:08.541] [Render thread/WARN] [Veil/]: Shader computercraft/monitor_tbo could not find uniform named Width in the specified shader program.
+[08нояб.2026 16:23:08.571] [Render thread/INFO] [Veil/]: Loaded 3 framebuffers
+[08нояб.2026 16:23:08.626] [Render thread/INFO] [Veil/]: Loaded 6 post pipelines
+[08нояб.2026 16:23:08.651] [Render thread/INFO] [Veil/]: Loaded 4 render types
+[08нояб.2026 16:23:08.651] [Render thread/INFO] [Veil/]: Enabled bloom pipeline
+[08нояб.2026 16:23:08.653] [Render thread/INFO] [Veil/]: Loaded 0 quasar particles
+[08нояб.2026 16:23:08.653] [Render thread/INFO] [Veil/]: Loaded 0 templates
+[08нояб.2026 16:23:08.653] [Render thread/INFO] [Veil/]: Loaded 0 modules
+[08нояб.2026 16:23:08.656] [Render thread/INFO] [Veil/]: Compiled 59 vanilla shaders in 108.5 ms
+[08нояб.2026 16:23:08.661] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
+[08нояб.2026 16:23:08.713] [Render thread/INFO] [flywheel/backend/shaders/]: Loaded 77 shader sources in 40,005 ms
+[08нояб.2026 16:23:08.790] [Render thread/INFO] [com.simibubi.create.Create/]: Loaded 58 train hat configurations.
+[08нояб.2026 16:23:08.793] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[08нояб.2026 16:23:09.696] [Render thread/WARN] [Veil/]: Shader computercraft/monitor_tbo could not find uniform named CursorColour in the specified shader program.
+[08нояб.2026 16:23:09.696] [Render thread/WARN] [Veil/]: Shader computercraft/monitor_tbo could not find uniform named CursorPos in the specified shader program.
+[08нояб.2026 16:23:09.697] [Render thread/WARN] [Veil/]: Shader computercraft/monitor_tbo could not find uniform named Height in the specified shader program.
+[08нояб.2026 16:23:09.697] [Render thread/WARN] [Veil/]: Shader computercraft/monitor_tbo could not find uniform named Width in the specified shader program.
+[08нояб.2026 16:23:09.898] [Render thread/INFO] [Veil/]: Finished uploading vanilla shaders
+[08нояб.2026 16:23:17.035] [Render thread/INFO] [com.simibubi.create.Create/]: Created 157 recipes which will be injected into the game
+[08нояб.2026 16:23:17.044] [Render thread/INFO] [com.simibubi.create.Create/]: Created 0 tags which will be injected into the game
+[08нояб.2026 16:23:18.648] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 3128 recipes
+[08нояб.2026 16:23:19.002] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2807 advancements
+[08нояб.2026 16:23:21.518] [Render thread/INFO] [EMI/]: [EMI] Recipes synchronized, waiting for tags to reload EMI...
+[08нояб.2026 16:23:21.528] [Render thread/INFO] [snownee.jade.Jade/]: LootTableMineableCollector took 10.06 ms
+[08нояб.2026 16:23:21.674] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
+[08нояб.2026 16:23:21.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[08нояб.2026 16:23:21.907] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:overworld] using RapierPhysicsPipelineProvider
+[08нояб.2026 16:23:22.494] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:the_end] using RapierPhysicsPipelineProvider
+[08нояб.2026 16:23:23.157] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:the_nether] using RapierPhysicsPipelineProvider
+[08нояб.2026 16:23:23.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[08нояб.2026 16:23:23.518] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
+[08нояб.2026 16:23:23.708] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 524 ms
+[08нояб.2026 16:23:23.709] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[08нояб.2026 16:23:24.157] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[08нояб.2026 16:23:24.157] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[08нояб.2026 16:23:24.410] [Render thread/INFO] [dev.ryanhcode.sable.Sable/]: Adding local UDP server channel future
+[08нояб.2026 16:23:24.439] [Render thread/WARN] [io.netty.bootstrap.Bootstrap/]: Unknown channel option 'SO_BROADCAST' for channel '[id: 0x3850fb12]'
+[08нояб.2026 16:23:24.463] [Netty Server IO #1/INFO] [dev.ryanhcode.sable.Sable/]: Server UDP channel active
+[08нояб.2026 16:23:24.539] [Render thread/INFO] [dev.ryanhcode.sable.Sable/]: Starting local client UDP channel future
+[08нояб.2026 16:23:24.544] [Netty Local Client IO #1/INFO] [dev.ryanhcode.sable.Sable/]: Client UDP channel active
+[08нояб.2026 16:23:24.815] [Render thread/INFO] [com.simibubi.create.Create/]: Created 157 recipes which will be injected into the game
+[08нояб.2026 16:23:24.818] [Render thread/INFO] [com.simibubi.create.Create/]: Created 0 tags which will be injected into the game
+[08нояб.2026 16:23:24.969] [Render thread/INFO] [EMI/]: [EMI] Recipes synchronized, waiting for tags to reload EMI...
+[08нояб.2026 16:23:25.257] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:8c642752] logged in with entity id 24 at (-75.59049904770758, 121.0, 35.29699736406038)
+[08нояб.2026 16:23:25.267] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Beginning attempted authentication with player Dev
+[08нояб.2026 16:23:25.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev присоединился к игре
+[08нояб.2026 16:23:27.103] [Render thread/INFO] [flywheel/]: Started 10 worker threads
+[08нояб.2026 16:23:27.194] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI...
+[08нояб.2026 16:23:27.213] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes...
+[08нояб.2026 16:23:27.215] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes took 1.806 milliseconds
+[08нояб.2026 16:23:27.216] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes...
+[08нояб.2026 16:23:27.260] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering fluid subtypes: jei:debug took 42.47 milliseconds
+[08нояб.2026 16:23:27.262] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes took 45.18 milliseconds
+[08нояб.2026 16:23:27.268] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients...
+[08нояб.2026 16:23:27.306] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: 46 duplicate items were found in 'Функциональные блоки' creative tab's: displayItems
+This may indicate that these types of item need a subtype interpreter added to JEI:
+[minecraft:painting]
+[08нояб.2026 16:23:27.309] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: 9 duplicate items were found in 'Инструменты и приспособления' creative tab's: displayItems
+This may indicate that these types of item need a subtype interpreter added to JEI:
+[minecraft:goat_horn, minecraft:firework_rocket]
+[08нояб.2026 16:23:27.312] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: 45 duplicate items were found in 'Оружие и доспехи' creative tab's: displayItems
+This may indicate that these types of item need a subtype interpreter added to JEI:
+[minecraft:tipped_arrow]
+[08нояб.2026 16:23:27.317] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: 147 duplicate items were found in 'Еда и напитки' creative tab's: displayItems
+This may indicate that these types of item need a subtype interpreter added to JEI:
+[minecraft:lingering_potion, minecraft:potion, minecraft:ominous_bottle, minecraft:splash_potion, minecraft:suspicious_stew]
+[08нояб.2026 16:23:27.320] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: 43 duplicate items were found in 'Ингредиенты' creative tab's: displayItems
+This may indicate that these types of item need a subtype interpreter added to JEI:
+[minecraft:enchanted_book]
+[08нояб.2026 16:23:27.327] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: 39 duplicate items were found in 'ComputerCraft' creative tab's: displayItems
+This may indicate that these types of item need a subtype interpreter added to JEI:
+[computercraft:pocket_computer_advanced, computercraft:turtle_advanced, computercraft:disk, computercraft:pocket_computer_normal, computercraft:turtle_normal]
+[08нояб.2026 16:23:27.384] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:minecraft took 115.5 milliseconds
+[08нояб.2026 16:23:27.385] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients took 116.8 milliseconds
+[08нояб.2026 16:23:27.385] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients...
+[08нояб.2026 16:23:27.393] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients took 8.386 milliseconds
+[08нояб.2026 16:23:27.394] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases...
+[08нояб.2026 16:23:27.397] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases took 2.900 milliseconds
+[08нояб.2026 16:23:27.447] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Mod Info...
+[08нояб.2026 16:23:27.449] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Mod Info took 1.805 milliseconds
+[08нояб.2026 16:23:27.486] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories...
+[08нояб.2026 16:23:27.533] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:minecraft took 47.70 milliseconds
+[08нояб.2026 16:23:27.572] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: powergrid:jei took 38.16 milliseconds
+[08нояб.2026 16:23:27.667] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: create:jei_plugin took 94.19 milliseconds
+[08нояб.2026 16:23:27.678] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:internal took 11.10 milliseconds
+[08нояб.2026 16:23:27.679] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories took 193.1 milliseconds
+[08нояб.2026 16:23:27.681] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions...
+[08нояб.2026 16:23:27.689] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions took 7.909 milliseconds
+[08нояб.2026 16:23:27.692] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts...
+[08нояб.2026 16:23:27.695] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts took 3.036 milliseconds
+[08нояб.2026 16:23:27.696] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry...
+[08нояб.2026 16:23:27.728] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry took 31.98 milliseconds
+[08нояб.2026 16:23:27.732] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins...
+[08нояб.2026 16:23:27.733] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins took 1.199 milliseconds
+[08нояб.2026 16:23:27.736] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes...
+[08нояб.2026 16:23:27.767] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: simulated:jei_plugin took 30.74 milliseconds
+[08нояб.2026 16:23:27.984] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: create:jei_plugin took 210.3 milliseconds
+[08нояб.2026 16:23:28.088] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:internal took 103.4 milliseconds
+[08нояб.2026 16:23:28.088] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes took 352.2 milliseconds
+[08нояб.2026 16:23:28.100] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers...
+[08нояб.2026 16:23:28.105] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers took 4.477 milliseconds
+[08нояб.2026 16:23:28.121] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime...
+[08нояб.2026 16:23:28.135] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers...
+[08нояб.2026 16:23:28.142] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers took 7.270 milliseconds
+[08нояб.2026 16:23:28.153] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime...
+[08нояб.2026 16:23:28.163] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime took 9.626 milliseconds
+[08нояб.2026 16:23:28.166] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime took 44.49 milliseconds
+[08нояб.2026 16:23:28.166] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime...
+[08нояб.2026 16:23:28.167] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime took 1.073 milliseconds
+[08нояб.2026 16:23:28.168] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI took 972.9 milliseconds
+[08нояб.2026 16:23:28.168] [Render thread/INFO] [EMI/]: [EMI] Tags synchronized, reloading EMI
+[08нояб.2026 16:23:28.168] [Render thread/INFO] [EMI/]: [EMI] Starting Reload
+[08нояб.2026 16:23:28.173] [Thread-17/INFO] [EMI/]: [EMI] Starting EMI reload...
+[08нояб.2026 16:23:28.173] [Thread-17/INFO] [EMI/]: [EMI] Clearing data
+[08нояб.2026 16:23:28.207] [Render thread/INFO] [snownee.jade.Jade/]: Received config from the server: 
+[08нояб.2026 16:23:28.212] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 48 advancements
+[08нояб.2026 16:23:28.328] [Thread-17/INFO] [EMI/]: [EMI] Initializing plugin from emi
+[08нояб.2026 16:23:28.361] [Thread-17/INFO] [EMI/]: [EMI] Initialized plugin from emi in 25ms
+[08нояб.2026 16:23:28.361] [Thread-17/INFO] [EMI/]: [EMI] Initializing plugin from computercraft
+[08нояб.2026 16:23:28.361] [Thread-17/INFO] [EMI/]: [EMI] Initialized plugin from computercraft in 0ms
+[08нояб.2026 16:23:28.361] [Thread-17/INFO] [EMI/]: [EMI] Initializing plugin from jemi
+[08нояб.2026 16:23:28.362] [Thread-17/INFO] [EMI/]: [EMI] Initialized plugin from jemi in 0ms
+[08нояб.2026 16:23:28.367] [Thread-17/INFO] [EMI/]: [EMI] Processing tags
+[08нояб.2026 16:23:28.379] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #powergrid:acid
+[08нояб.2026 16:23:28.379] [Thread-17/INFO] [EMI/]: [EMI]  Tag warning can be disabled in the config, EMI docs describe how to add a translation or exclude tags.
+[08нояб.2026 16:23:28.389] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #aeronautics:burner_fire
+[08нояб.2026 16:23:28.389] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #aeronautics:converts_to_cloud_skipper
+[08нояб.2026 16:23:28.389] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #aeronautics:envelope
+[08нояб.2026 16:23:28.389] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #aeronautics:levitite
+[08нояб.2026 16:23:28.389] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #aeronautics:levitite_catalyzer
+[08нояб.2026 16:23:28.389] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #aeronautics:levitite_catalyzer_no_consume
+[08нояб.2026 16:23:28.389] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #aeronautics:levitite_soul_catalyzer
+[08нояб.2026 16:23:28.390] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #aeronautics:shaftless_envelope
+[08нояб.2026 16:23:28.390] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #c:buckets/chocolate
+[08нояб.2026 16:23:28.390] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #c:chestplates
+[08нояб.2026 16:23:28.390] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #c:coils
+[08нояб.2026 16:23:28.390] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #c:copper_coils
+[08нояб.2026 16:23:28.390] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #c:drinks/tea
+[08нояб.2026 16:23:28.390] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #c:foods/chocolate
+[08нояб.2026 16:23:28.390] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #c:iron_coils
+[08нояб.2026 16:23:28.390] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #c:wires
+[08нояб.2026 16:23:28.390] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #c:wires/copper
+[08нояб.2026 16:23:28.391] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #c:wires/gold
+[08нояб.2026 16:23:28.391] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #c:wires/iron
+[08нояб.2026 16:23:28.391] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #curios:head
+[08нояб.2026 16:23:28.391] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #powergrid:bad_wire_cutters
+[08нояб.2026 16:23:28.391] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #powergrid:circuit_component
+[08нояб.2026 16:23:28.391] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #powergrid:circuit_schematic_holder
+[08нояб.2026 16:23:28.391] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #powergrid:fuse_resetting
+[08нояб.2026 16:23:28.391] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #powergrid:light_wires
+[08нояб.2026 16:23:28.391] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #powergrid:wire_cutters
+[08нояб.2026 16:23:28.392] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #sable:paddles
+[08нояб.2026 16:23:28.392] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #simulated:destroys_rope
+[08нояб.2026 16:23:28.392] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #simulated:handle_variants
+[08нояб.2026 16:23:28.392] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #simulated:laser_point_lens
+[08нояб.2026 16:23:28.392] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #simulated:laser_point_rainbow
+[08нояб.2026 16:23:28.392] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #simulated:merging_glue
+[08нояб.2026 16:23:28.392] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #simulated:nameplate_items
+[08нояб.2026 16:23:28.392] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #simulated:rotate_with_nav_arrow
+[08нояб.2026 16:23:28.392] [Thread-17/ERROR] [EMI/]: [EMI] Untranslated tag #simulated:spring_adjuster
+[08нояб.2026 16:23:28.393] [Thread-17/INFO] [EMI/]: [EMI]  Tag warning can be disabled in the config, EMI docs describe how to add a translation or exclude tags.
+[08нояб.2026 16:23:28.418] [Thread-17/INFO] [EMI/]: [EMI] Constructing index
+[08нояб.2026 16:23:28.430] [Thread-17/INFO] [EMI/]: [EMI] Reloading item groups on client thread...
+[08нояб.2026 16:23:28.552] [Thread-17/INFO] [EMI/]: [EMI] Reloading item groups on client thread took 121ms
+[08нояб.2026 16:23:28.577] [Thread-17/INFO] [EMI/]: [EMI] Loading plugin from emi
+[08нояб.2026 16:23:29.063] [Render thread/INFO] [Veil/]: Multi-Bind supported, using core
+[08нояб.2026 16:23:29.119] [Thread-17/INFO] [EMI/]: [EMI] Reloaded plugin from emi in 540ms
+[08нояб.2026 16:23:29.119] [Thread-17/INFO] [EMI/]: [EMI] Loading plugin from computercraft
+[08нояб.2026 16:23:29.119] [Thread-17/INFO] [EMI/]: [EMI] Reloaded plugin from computercraft in 0ms
+[08нояб.2026 16:23:29.120] [Thread-17/INFO] [EMI/]: [EMI] Loading plugin from jemi
+[08нояб.2026 16:23:29.120] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Waiting for JEI to finish reloading...
+[08нояб.2026 16:23:29.120] [Thread-17/INFO] [EMI/]: [EMI] Waiting for JEI to finish...
+[08нояб.2026 16:23:29.120] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] JEI reloaded!
+[08нояб.2026 16:23:29.124] [Thread-17/INFO] [EMI/]: [EMI] Loading information from JEI...
+[08нояб.2026 16:23:29.132] [Thread-17/INFO] [EMI/]: [EMI] Processing JEI stacks...
+[08нояб.2026 16:23:29.133] [Thread-17/INFO] [EMI/]: [EMI] Processing JEI subtypes...
+[08нояб.2026 16:23:29.137] [Thread-17/INFO] [EMI/]: [EMI] Processing JEI recipes...
+[08нояб.2026 16:23:29.141] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Создание
+[08нояб.2026 16:23:29.142] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Создание
+[08нояб.2026 16:23:29.176] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Наковальня
+[08нояб.2026 16:23:29.176] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Наковальня
+[08нояб.2026 16:23:29.176] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Дутьё
+[08нояб.2026 16:23:29.176] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Дутьё
+[08нояб.2026 16:23:29.176] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Варка
+[08нояб.2026 16:23:29.176] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Варка
+[08нояб.2026 16:23:29.177] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Приготовление на костре
+[08нояб.2026 16:23:29.177] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Приготовление на костре
+[08нояб.2026 16:23:29.177] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Биоразлагаемость
+[08нояб.2026 16:23:29.177] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Биоразлагаемость
+[08нояб.2026 16:23:29.177] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Топливо
+[08нояб.2026 16:23:29.177] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Топливо
+[08нояб.2026 16:23:29.177] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Точило
+[08нояб.2026 16:23:29.177] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Точило
+[08нояб.2026 16:23:29.180] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Плавка
+[08нояб.2026 16:23:29.180] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Плавка
+[08нояб.2026 16:23:29.180] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Стол кузнеца
+[08нояб.2026 16:23:29.180] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Стол кузнеца
+[08нояб.2026 16:23:29.180] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Копчение
+[08нояб.2026 16:23:29.180] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Копчение
+[08нояб.2026 16:23:29.180] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Резка камня
+[08нояб.2026 16:23:29.180] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Резка камня
+[08нояб.2026 16:23:29.180] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Block Tags
+[08нояб.2026 16:23:29.180] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Block Tags
+[08нояб.2026 16:23:29.261] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Fluid Tags
+[08нояб.2026 16:23:29.261] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Fluid Tags
+[08нояб.2026 16:23:29.262] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Item Tags
+[08нояб.2026 16:23:29.262] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Item Tags
+[08нояб.2026 16:23:29.283] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Автоматическая варка
+[08нояб.2026 16:23:29.283] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Автоматическая варка
+[08нояб.2026 16:23:29.331] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Сжатие предметов
+[08нояб.2026 16:23:29.331] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Сжатие предметов
+[08нояб.2026 16:23:29.332] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Форменное создание
+[08нояб.2026 16:23:29.332] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Форменное создание
+[08нояб.2026 16:23:29.351] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Бесформенное создание
+[08нояб.2026 16:23:29.351] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Бесформенное создание
+[08нояб.2026 16:23:29.359] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Резка блоков
+[08нояб.2026 16:23:29.359] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Резка блоков
+[08нояб.2026 16:23:29.363] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Дробление
+[08нояб.2026 16:23:29.363] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Дробление
+[08нояб.2026 16:23:29.365] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Автономное создание
+[08нояб.2026 16:23:29.365] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Автономное создание
+[08нояб.2026 16:23:29.368] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Осушение предметов
+[08нояб.2026 16:23:29.369] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Осушение предметов
+[08нояб.2026 16:23:29.369] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Массовое плавление
+[08нояб.2026 16:23:29.369] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Массовое плавление
+[08нояб.2026 16:23:29.370] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Призрачное наполнение
+[08нояб.2026 16:23:29.370] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Призрачное наполнение
+[08нояб.2026 16:23:29.370] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Массовое копчение
+[08нояб.2026 16:23:29.370] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Массовое копчение
+[08нояб.2026 16:23:29.370] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Массовая промывка
+[08нояб.2026 16:23:29.370] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Массовая промывка
+[08нояб.2026 16:23:29.371] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Ручное создание
+[08нояб.2026 16:23:29.371] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Ручное создание
+[08нояб.2026 16:23:29.372] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Механическая сборка
+[08нояб.2026 16:23:29.372] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Механическая сборка
+[08нояб.2026 16:23:29.373] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Помол
+[08нояб.2026 16:23:29.373] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Помол
+[08нояб.2026 16:23:29.373] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Смешивание
+[08нояб.2026 16:23:29.373] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Смешивание
+[08нояб.2026 16:23:29.375] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Таинственное преобразование
+[08нояб.2026 16:23:29.375] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Таинственное преобразование
+[08нояб.2026 16:23:29.375] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Спрессовывание
+[08нояб.2026 16:23:29.375] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Спрессовывание
+[08нояб.2026 16:23:29.376] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Прессование
+[08нояб.2026 16:23:29.376] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Прессование
+[08нояб.2026 16:23:29.376] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Полирование
+[08нояб.2026 16:23:29.376] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Полирование
+[08нояб.2026 16:23:29.376] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Распиловка
+[08нояб.2026 16:23:29.376] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Распиловка
+[08нояб.2026 16:23:29.378] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Последовательная сборка
+[08нояб.2026 16:23:29.378] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Последовательная сборка
+[08нояб.2026 16:23:29.378] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Наполнение дозатором
+[08нояб.2026 16:23:29.379] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Наполнение дозатором
+[08нояб.2026 16:23:29.380] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Сведения
+[08нояб.2026 16:23:29.380] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Сведения
+[08нояб.2026 16:23:29.380] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Сборка печатной платы
+[08нояб.2026 16:23:29.380] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Сборка печатной платы
+[08нояб.2026 16:23:29.381] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Проектирование схем
+[08нояб.2026 16:23:29.381] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Проектирование схем
+[08нояб.2026 16:23:29.381] [Thread-17/INFO] [EMI/]: [EMI] [JEMI] Collecting data for Намагничивание
+[08нояб.2026 16:23:29.381] [Thread-17/INFO] [EMI/]: [EMI] Loading JEI data for Намагничивание
+[08нояб.2026 16:23:29.381] [Thread-17/INFO] [EMI/]: [EMI] Reloaded plugin from jemi in 261ms
+[08нояб.2026 16:23:29.381] [Thread-17/INFO] [EMI/]: [EMI] Baking index
+[08нояб.2026 16:23:29.427] [Thread-17/INFO] [EMI/]: [EMI] Registering late recipes
+[08нояб.2026 16:23:29.428] [Thread-17/INFO] [EMI/]: [EMI] Baking recipes
+[08нояб.2026 16:23:29.662] [Thread-17/INFO] [EMI/]: [EMI] Baked 8700 recipes in 227ms
+[08нояб.2026 16:23:29.676] [Thread-17/INFO] [EMI/]: [EMI] Baking search
+[08нояб.2026 16:23:29.769] [Thread-18/INFO] [EMI/]: [EMI] Baked recipes after reload in 112ms
+[08нояб.2026 16:23:30.114] [Thread-17/INFO] [EMI/]: [EMI] Finishing up
+[08нояб.2026 16:23:30.185] [Thread-17/INFO] [EMI/]: [EMI] Reloaded EMI in 2012ms
+[08нояб.2026 16:23:59.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev получил достижение «[Electronic wonders]»
+[08нояб.2026 16:23:59.259] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev получил достижение «[Electronic wonders]»
+[08нояб.2026 16:23:59.282] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 52 advancements
+[08нояб.2026 16:24:11.664] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Отладка]: Расширенные подсказки: вкл.
+[08нояб.2026 16:25:14.723] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 66 advancements
+[08нояб.2026 16:25:18.626] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 70 advancements
+[08нояб.2026 16:25:47.701] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[08нояб.2026 16:25:47.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:overworld
+[08нояб.2026 16:25:47.744] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Новый мир]'/minecraft:overworld
+[08нояб.2026 16:25:47.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_end
+[08нояб.2026 16:25:47.815] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Новый мир]'/minecraft:the_end
+[08нояб.2026 16:25:47.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_nether
+[08нояб.2026 16:25:47.816] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Новый мир]'/minecraft:the_nether
+[08нояб.2026 16:26:57.452] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[08нояб.2026 16:26:57.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:overworld
+[08нояб.2026 16:26:57.482] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Новый мир]'/minecraft:overworld
+[08нояб.2026 16:26:57.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_end
+[08нояб.2026 16:26:57.540] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Новый мир]'/minecraft:the_end
+[08нояб.2026 16:26:57.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_nether
+[08нояб.2026 16:26:57.542] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Новый мир]'/minecraft:the_nether
+[08нояб.2026 16:27:10.205] [Render thread/INFO] [EMI/]: [EMI] Disconnecting from server, EMI data cleared
+[08нояб.2026 16:27:10.205] [Netty Local Client IO #1/INFO] [dev.ryanhcode.sable.Sable/]: Closed UDP channel!
+[08нояб.2026 16:27:10.205] [Netty Local Client IO #1/INFO] [dev.ryanhcode.sable.Sable/]: Client UDP channel inactive
+[08нояб.2026 16:27:10.206] [Thread-26/INFO] [EMI/]: [EMI] Clearing data
+[08нояб.2026 16:27:10.208] [Render thread/INFO] [mezz.jei.library.startup.JeiStarter/]: Stopping JEI
+[08нояб.2026 16:27:10.208] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable...
+[08нояб.2026 16:27:10.209] [Render thread/INFO] [mezz.jei.neoforge.plugins.neoforge.NeoForgeGuiPlugin/]: Stopping JEI GUI
+[08нояб.2026 16:27:10.210] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable took 1.499 milliseconds
+[08нояб.2026 16:27:10.262] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Отключение
+[08нояб.2026 16:27:10.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev покинул игру
+[08нояб.2026 16:27:10.286] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[08нояб.2026 16:27:10.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[08нояб.2026 16:27:10.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[08нояб.2026 16:27:10.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[08нояб.2026 16:27:10.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:overworld
+[08нояб.2026 16:27:10.732] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Новый мир]'/minecraft:overworld
+[08нояб.2026 16:27:12.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_end
+[08нояб.2026 16:27:12.952] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Новый мир]'/minecraft:the_end
+[08нояб.2026 16:27:13.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_nether
+[08нояб.2026 16:27:13.077] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Новый мир]'/minecraft:the_nether
+[08нояб.2026 16:27:13.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (Новый мир (1)): All chunks are saved
+[08нояб.2026 16:27:13.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08нояб.2026 16:27:13.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08нояб.2026 16:27:13.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[08нояб.2026 16:27:15.878] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
