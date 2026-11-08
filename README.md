@@ -7,4 +7,4 @@ neoforge 1.21.1
 
 Welcome to my mod! It adds compatibility recipes to power grid !
 
-*This mod is in development!* This is essentially its alpha.
+*This mod is in development!* This is essentially its pre-alpha.
