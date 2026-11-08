@@ -1,0 +1,57 @@
+[08нояб.2026 13:18:51.880] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatadev, --assetIndex, 17, --assetsDir, C:\\Users\\user\\.gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.fmlVersion, 4.0.45, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.265, --fml.neoFormVersion, 20240808.144430, --mod, powergrid_compat, --all, --output, G:\MY mods\powergrid-compat\src\generated\resources, --existing, G:\MY mods\powergrid-compat\src\main\resources]
+[08нояб.2026 13:18:51.887] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.7+6-LTS
+[08нояб.2026 13:18:51.890] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.7 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[08нояб.2026 13:18:52.410] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatadev
+[08нояб.2026 13:18:52.525] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/user/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.4+mixin.0.8.7/26d01f0567ab46e9ca0d2ed89d0ecc11aadbd433/sponge-mixin-0.16.4+mixin.0.8.7.jar%23138!/ Service=ModLauncher Env=CLIENT
+[08нояб.2026 13:18:54.527] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 17 dependencies adding them to mods collection
+[08нояб.2026 13:18:54.530] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Architectury 13.0.11 (architectury)
+		Create 6.0.10 (create)
+		Create Aeronautics 1.3.0 (aeronautics)
+		Create Aeronautics 1.3.0 (aeronautics_bundled)
+		Create Offroad 1.3.0 (offroad)
+		Create Simulated 1.3.0 (simulated)
+		Create: Power Grid 0.6.1 (powergrid)
+		EMI 1.1.24+1.21.1+neoforge (emi)
+		Flywheel 1.0.6 (flywheel)
+		Jade 15.10.5+neoforge (jade)
+		Just Enough Items 19.27.0.340 (jei)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.265 (neoforge)
+		Ponder 1.0.82+mc1.21.1 (ponder)
+		Power Grid: Compat 0.0.1 (powergrid_compat)
+		Sable 2.0.3 (sable)
+		Sable Companion 1.6.0 (sablecompanion)
+		Veil 4.1.4 (veil)
+[08нояб.2026 13:18:56.778] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[08нояб.2026 13:18:56.783] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[08нояб.2026 13:18:56.896] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatadev' with arguments [--gameDir, ., --assetsDir, C:\Users\user\.gradle\caches\neoformruntime\assets, --assetIndex, 17, --mod, powergrid_compat, --all, --output, G:\MY mods\powergrid-compat\src\generated\resources, --existing, G:\MY mods\powergrid-compat\src\main\resources]
+[08нояб.2026 13:18:57.111] [main/WARN] [mixin/]: Reference map 'simulated.refmap.json' for simulated.mixins.json could not be read. If this is a development environment you can ignore this message
+[08нояб.2026 13:18:57.118] [main/WARN] [mixin/]: Reference map 'aeronautics.refmap.json' for aeronautics.mixins.json could not be read. If this is a development environment you can ignore this message
+[08нояб.2026 13:18:57.132] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[08нояб.2026 13:18:57.154] [main/INFO] [dev.ryanhcode.sable.mixin.AbstractSableMixinPlugin/]: Using Vanilla renderer mixins
+[08нояб.2026 13:18:57.155] [main/INFO] [dev.ryanhcode.sable.mixin.AbstractSableMixinPlugin/]: Using Vanilla renderer mixins
+[08нояб.2026 13:18:57.156] [main/WARN] [mixin/]: Reference map 'offroad.refmap.json' for offroad.mixins.json could not be read. If this is a development environment you can ignore this message
+[08нояб.2026 13:18:58.157] [main/WARN] [mixin/]: Error loading class: net/irisshaders/iris/pipeline/PipelineManager (java.lang.ClassNotFoundException: net.irisshaders.iris.pipeline.PipelineManager)
+[08нояб.2026 13:18:58.158] [main/WARN] [mixin/]: @Mixin target net.irisshaders.iris.pipeline.PipelineManager was not found veil.neoforge.mixins.json:client.perspective.iris.PipelineManagerMixin from mod veil
+[08нояб.2026 13:18:59.247] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$ScheduledForRemoval (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$ScheduledForRemoval)
+[08нояб.2026 13:18:59.550] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.5).
+[08нояб.2026 13:18:59.626] [main/INFO] [net.neoforged.neoforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [powergrid_compat]
+[08нояб.2026 13:19:09.314] [modloading-worker-0/INFO] [Veil/]: Veil is initializing.
+[08нояб.2026 13:19:09.421] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.265, for MC 1.21.1
+[08нояб.2026 13:19:09.812] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.10 initializing! Commit hash: ac0c444d9828da3453ae8cc65338e8de063286fb
+[08нояб.2026 13:19:10.350] [modloading-worker-0/INFO] [org.patryk3211.powergrid.PowerGrid/]: Power grid starting, prepare to be electrocuted
+[08нояб.2026 13:19:10.364] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[08нояб.2026 13:19:10.378] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 10.43 milliseconds
+[08нояб.2026 13:19:10.389] [modloading-worker-0/INFO] [org.patryk3211.powergrid.PowerGrid/]: Native backend loaded successfully
+[08нояб.2026 13:19:13.465] [modloading-worker-0/INFO] [dev.ryanhcode.sable.Sable/]: Sable loaded!
+[08нояб.2026 13:19:13.489] [modloading-worker-0/WARN] [dev.ryanhcode.sable.Sable/]: NOTE: Sable is loaded with Flywheel. Sable contains extensive shader overrides and a full light-storage replacement. Expect this to cause compatibility issues. If issues arise, please report them to the Sable issue tracker (https://github.com/ryanhcode/sable/issues) instead of the Flywheel issue tracker.
+[08нояб.2026 13:19:17.505] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/G:/MY%20mods/powergrid-compat/build/moddev/artifacts/neoforge-21.1.265.jar%23197!/assets/.mcassetsroot' uses unexpected schema
+[08нояб.2026 13:19:17.506] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/G:/MY%20mods/powergrid-compat/build/moddev/artifacts/neoforge-21.1.265.jar%23197!/data/.mcassetsroot' uses unexpected schema
+[08нояб.2026 13:19:18.054] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: powergrid_compat
+[08нояб.2026 13:19:18.076] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: powergrid_compat finished after 20 ms
+[08нояб.2026 13:19:18.076] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 22 ms
+[08нояб.2026 13:19:18.082] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 1, old count: 1, new count: 2, removed stale: 0, written: 0

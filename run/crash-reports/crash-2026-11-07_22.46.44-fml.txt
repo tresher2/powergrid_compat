@@ -1,0 +1,98 @@
+---- Minecraft Crash Report ----
+// Hey, that tickles! Hehehe!
+
+Time: 2026-11-07 22:46:44
+Description: Mod loading failures have occurred; consult the issue messages for more details
+
+net.neoforged.neoforge.logging.CrashReportExtender$ModLoadingCrashException: Mod loading has failed
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Mod loading issue for: powergrid --
+Details:
+	Mod file: /G:/MY mods/powergrid-compat/run/mods/powergrid-mc1.21.1-0.6.1.jar
+	Failure message: Mod powergrid requires architectury 13.0.8 or above
+		Currently, architectury is not installed
+		
+	Mod version: 0.6.1
+	Mod issues URL: https://github.com/patryk3211/PowerGrid/issues
+	Exception message: <No associated exception found>
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 21.0.7, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 279258640 bytes (266 MiB) / 998244352 bytes (952 MiB) up to 17137926144 bytes (16344 MiB)
+	CPUs: 24
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Xeon(R) CPU E5-2676 v3 @ 2.40GHz
+	Identifier: Intel64 Family 6 Model 63 Stepping 2
+	Microarchitecture: Haswell (Server)
+	Frequency (GHz): 2.39
+	Number of physical packages: 1
+	Number of physical CPUs: 12
+	Number of logical CPUs: 24
+	Graphics card #0 name: Microsoft Basic Display Adapter
+	Graphics card #0 vendor: Microsoft
+	Graphics card #0 VRAM (MiB): 0.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 10.0.19041.3636
+	Graphics card #1 name: NVIDIA GeForce GT 640
+	Graphics card #1 vendor: NVIDIA
+	Graphics card #1 VRAM (MiB): 2048.00
+	Graphics card #1 deviceId: VideoController2
+	Graphics card #1 versionInfo: 27.21.14.5671
+	Graphics card #2 name: NVIDIA GeForce GTX 550 Ti
+	Graphics card #2 vendor: NVIDIA
+	Graphics card #2 VRAM (MiB): 1024.00
+	Graphics card #2 deviceId: VideoController3
+	Graphics card #2 versionInfo: 23.21.13.9135
+	Graphics card #3 name: NVIDIA GeForce GTX 1660 SUPER
+	Graphics card #3 vendor: NVIDIA
+	Graphics card #3 VRAM (MiB): 6144.00
+	Graphics card #3 deviceId: VideoController4
+	Graphics card #3 versionInfo: 32.0.16.1047
+	Memory slot #0 capacity (MiB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 2.13
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MiB): 16384.00
+	Memory slot #1 clockSpeed (GHz): 2.13
+	Memory slot #1 type: DDR4
+	Memory slot #2 capacity (MiB): 16384.00
+	Memory slot #2 clockSpeed (GHz): 2.13
+	Memory slot #2 type: DDR4
+	Memory slot #3 capacity (MiB): 16384.00
+	Memory slot #3 clockSpeed (GHz): 2.13
+	Memory slot #3 type: DDR4
+	Virtual memory max (MiB): 65884.44
+	Virtual memory used (MiB): 27360.47
+	Swap memory total (MiB): 512.00
+	Swap memory used (MiB): 0.00
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 260575.83, total: 487810.00
+	Space in storage for workdir (MiB): available: 1404639.50, total: 1907715.00
+	JVM Flags: 0 total; 
+	ModLauncher: 11.0.5+main.901c6ea8
+	ModLauncher launch target: forgeclientdev
+	ModLauncher services: 
+		sponge-mixin-0.16.4+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.45.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.45.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.45.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.5.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.5.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		neoforge-21.1.265.jar                             |Minecraft                     |minecraft                     |1.21.1              |Manifest: NOSIGNATURE
+		neoforge-21.1.265.jar                             |NeoForge                      |neoforge                      |21.1.265            |Manifest: NOSIGNATURE

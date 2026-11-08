@@ -1,0 +1,20 @@
+{
+  "favorites": [],
+  "lookup_history": [
+    "item:minecraft:spruce_trapdoor",
+    "item:powergrid:electrozapper",
+    "item:powergrid:growth_lamp",
+    "item:simulated:docking_connector",
+    "item:simulated:optical_sensor",
+    "item:simulated:navigation_table",
+    "item:offroad:large_tire"
+  ],
+  "craft_history": [],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}
