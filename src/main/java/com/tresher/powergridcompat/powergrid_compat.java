@@ -32,7 +32,7 @@ public class powergrid_compat {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
         NeoForge.EVENT_BUS.register(this);
-
+        
         //BLOCKS.register(modEventBus);
         //ITEMS.register(modEventBus);
         //CREATIVE_MODE_TABS.register(modEventBus);
@@ -44,7 +44,7 @@ public class powergrid_compat {
         modEventBus.addListener(this::addCreative);
 
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
-        modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {

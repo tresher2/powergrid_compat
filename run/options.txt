@@ -48,8 +48,8 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:[]
-incompatibleResourcePacks:[]
+resourcePacks:["vanilla","mod_resources","file/Create Computers 1.2.1 - 1.20.1 Resource Pack Only.zip"]
+incompatibleResourcePacks:["file/Create Computers 1.2.1 - 1.20.1 Resource Pack Only.zip"]
 lastServer:
 lang:ru_ru
 chatVisibility:0
@@ -175,6 +175,7 @@ key_create.keyinfo.rotate_menu:key.keyboard.unknown
 key_create.keyinfo.shift_modifier:key.keyboard.left.shift
 key_create.keyinfo.ctrl_modifier:key.keyboard.left.control
 key_create.keyinfo.alt_modifier:key.keyboard.left.alt
+key_key.kubejs.kubedex:key.keyboard.k
 soundCategory_master:0.6274834437086093
 soundCategory_music:0.0
 soundCategory_record:1.0

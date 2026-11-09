@@ -1,0 +1,65 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "powergrid:copper_cord"
+  },
+  "results": [
+    {
+      "count": 6,
+      "id": "computercraft:cable"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "powergrid:iron_wire"
+        },
+        {
+          "item": "powergrid:copper_cord"
+        }
+      ],
+      "results": [
+        {
+          "id": "powergrid:iron_wire"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "powergrid:iron_wire"
+        },
+        {
+          "item": "minecraft:dried_kelp"
+        }
+      ],
+      "results": [
+        {
+          "id": "powergrid:iron_wire"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "powergrid:iron_wire"
+        },
+        {
+          "item": "minecraft:redstone"
+        }
+      ],
+      "results": [
+        {
+          "id": "powergrid:iron_wire"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "powergrid:iron_wire"
+  }
+}

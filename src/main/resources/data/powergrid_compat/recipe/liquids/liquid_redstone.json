@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern":
+  [
+    "KCK",
+    "PRP",
+    "KCK"
+  ],
+  "key":
+  {
+    "K": {"item": "minecraft:dried_kelp"},
+    "C": {"item": "powergrid:copper_cord"},
+    "P": {"item": "powergrid:pins"},
+    "R": {"item": "minecraft:redstone"}
+  },
+  "result": {"count": 4, "id": "computercraft:cable"}
+}

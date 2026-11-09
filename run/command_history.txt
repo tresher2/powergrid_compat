@@ -9,3 +9,5 @@
 /kubejs hand
 /gamerule doWeatherCycle false
 /weather clear
+/kubejs hand
+/reload
