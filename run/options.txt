@@ -12,7 +12,7 @@ darknessEffectScale:1.0
 glintSpeed:0.5
 glintStrength:0.75
 prioritizeChunkUpdates:0
-fullscreen:true
+fullscreen:false
 gamma:0.5
 graphicsMode:1
 guiScale:4
@@ -121,9 +121,6 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
-key_simulated.keyinfo.rotate_mode:key.keyboard.tab
-key_simulated.keyinfo.scroll_up:key.keyboard.unknown
-key_simulated.keyinfo.scroll_down:key.keyboard.unknown
 key_key.jade.config:key.keyboard.keypad.0
 key_key.jade.show_overlay:key.keyboard.keypad.1
 key_key.jade.toggle_liquid:key.keyboard.keypad.2
@@ -131,12 +128,6 @@ key_key.jade.show_recipes:key.keyboard.keypad.3
 key_key.jade.show_uses:key.keyboard.keypad.4
 key_key.jade.narrate:key.keyboard.keypad.5
 key_key.jade.show_details:key.keyboard.left.shift
-key_powergrid.keyinfo.alternate_wire_placement:key.keyboard.left.control
-key_powergrid.keyinfo.rotate_component:key.keyboard.r
-key_powergrid.keyinfo.place_trace:key.keyboard.t
-key_powergrid.keyinfo.delete_area:key.keyboard.d
-key_powergrid.keyinfo.pick_component:key.keyboard.s
-key_powergrid.keyinfo.switch_layer:key.keyboard.x
 key_key.jei.toggleOverlay:key.keyboard.o:CONTROL
 key_key.jei.focusSearch:key.keyboard.f:CONTROL
 key_key.jei.previousPage:key.keyboard.unknown
@@ -175,6 +166,15 @@ key_create.keyinfo.rotate_menu:key.keyboard.unknown
 key_create.keyinfo.shift_modifier:key.keyboard.left.shift
 key_create.keyinfo.ctrl_modifier:key.keyboard.left.control
 key_create.keyinfo.alt_modifier:key.keyboard.left.alt
+key_simulated.keyinfo.rotate_mode:key.keyboard.tab
+key_simulated.keyinfo.scroll_up:key.keyboard.unknown
+key_simulated.keyinfo.scroll_down:key.keyboard.unknown
+key_powergrid.keyinfo.alternate_wire_placement:key.keyboard.left.control
+key_powergrid.keyinfo.rotate_component:key.keyboard.r
+key_powergrid.keyinfo.place_trace:key.keyboard.t
+key_powergrid.keyinfo.delete_area:key.keyboard.d
+key_powergrid.keyinfo.pick_component:key.keyboard.s
+key_powergrid.keyinfo.switch_layer:key.keyboard.x
 key_key.kubejs.kubedex:key.keyboard.k
 soundCategory_master:0.6274834437086093
 soundCategory_music:0.0

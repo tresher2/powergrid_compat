@@ -1,6 +1,11 @@
 package com.tresher.powergridcompat;
 
+import com.tresher.powergridcompat.block.ModBlocks;
+import com.tresher.powergridcompat.fluid.ModFluidTypes;
+import com.tresher.powergridcompat.fluid.ModFluids;
 import com.tresher.powergridcompat.item.ModItems;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
@@ -38,6 +43,11 @@ public class powergrid_compat {
         //CREATIVE_MODE_TABS.register(modEventBus);
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
 
+        ModBlocks.register(modEventBus);
+
+        ModFluids.register(modEventBus);
+        ModFluidTypes.register(modEventBus);
+
         ModItems.register(modEventBus);
 
         // Register the item to a creative tab
@@ -67,7 +77,8 @@ public class powergrid_compat {
     public static class ClientModClient {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.SOURCE_SOAP_WATER.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_SOAP_WATER.get(), RenderType.translucent());
         }
     }
 }

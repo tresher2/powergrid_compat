@@ -13,6 +13,8 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
+
         handheldItem(ModItems.STAGEEDITOR.get());
+        basicItem(ModItems.SOAP_WATER_BUCKET.get());
     }
 }

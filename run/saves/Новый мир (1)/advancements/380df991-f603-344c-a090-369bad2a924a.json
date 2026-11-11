@@ -1518,9 +1518,51 @@
     },
     "done": true
   },
+  "create:burner": {
+    "criteria": {
+      "0": "2026-11-09 23:59:25 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2026-11-09 23:59:50 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2026-11-09 23:59:50 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/magma_cream": {
     "criteria": {
       "has_blaze_powder": "2026-11-10 00:00:32 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2026-11-10 00:00:32 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2026-11-10 00:00:32 +0700"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/copper_ingot": {
+    "criteria": {
+      "has_item": "2026-11-10 00:03:12 +0700"
+    },
+    "done": true
+  },
+  "powergrid:recipes/misc/crafting/pins": {
+    "criteria": {
+      "has_item": "2026-11-10 00:03:12 +0700"
     },
     "done": true
   },
@@ -1542,51 +1584,39 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/fire_charge": {
-    "criteria": {
-      "has_blaze_powder": "2026-11-10 00:00:32 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/red_nether_bricks": {
     "criteria": {
       "has_nether_wart": "2026-11-10 00:04:12 +0700"
     },
     "done": true
   },
-  "create:recipes/misc/crafting/materials/copper_ingot": {
+  "createmetallurgy:recipes/misc/crafting/content/foundry_lid": {
     "criteria": {
-      "has_item": "2026-11-10 00:03:12 +0700"
+      "has_item": "2026-11-12 00:17:12 +0700"
     },
     "done": true
   },
-  "powergrid:recipes/misc/crafting/pins": {
+  "createmetallurgy:recipes/misc/crafting/content/casting_basin": {
     "criteria": {
-      "has_item": "2026-11-10 00:03:12 +0700"
+      "has_item": "2026-11-12 00:17:12 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/misc/ender_eye": {
+  "createmetallurgy:recipes/misc/crafting/content/faucet": {
     "criteria": {
-      "has_blaze_powder": "2026-11-10 00:00:32 +0700"
+      "has_item": "2026-11-12 00:17:12 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/glowstone": {
+  "createmetallurgy:recipes/misc/crafting/content/casting_table": {
     "criteria": {
-      "has_glowstone_dust": "2026-11-09 23:59:50 +0700"
+      "has_item": "2026-11-12 00:17:12 +0700"
     },
     "done": true
   },
-  "create:burner": {
+  "minecraft:recipes/decorations/yellow_glazed_terracotta": {
     "criteria": {
-      "0": "2026-11-09 23:59:25 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/spectral_arrow": {
-    "criteria": {
-      "has_glowstone_dust": "2026-11-09 23:59:50 +0700"
+      "has_yellow_terracotta": "2026-11-12 01:13:22 +0700"
     },
     "done": true
   },
