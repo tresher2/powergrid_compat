@@ -16,8 +16,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()
                     .stacksTo(1)
             ));
-    public static final DeferredItem<Item> SOAP_WATER_BUCKET = ITEMS.register("soap_water_bucket",
-            () -> new BucketItem(ModFluids.SOURCE_SOAP_WATER.get(),new Item.Properties()
+    public static final DeferredItem<Item> DESTABILIZED_REDSTONE_BUCKET = ITEMS.register("destabilized_redstone_bucket",
+            () -> new BucketItem(ModFluids.SOURCE_DESTABILIZED_REDSTONE.get(),new Item.Properties()
                     .stacksTo(1)
                     .craftRemainder(Items.BUCKET)
             ));

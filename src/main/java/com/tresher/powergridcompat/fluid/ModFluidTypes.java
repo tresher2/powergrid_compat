@@ -17,9 +17,9 @@ public class ModFluidTypes {
 
     public static final ResourceLocation WATER_STILL_RL = ResourceLocation.withDefaultNamespace("block/water_still");
     public static final ResourceLocation WATER_FLOWING_RL = ResourceLocation.withDefaultNamespace("block/water_flow");
-    public static final ResourceLocation SOAP_OVERLAY_RL = ResourceLocation.fromNamespaceAndPath(powergrid_compat.MOD_ID,"misc/in_soap_water");
+    public static final ResourceLocation DESTABILIZED_REDSTONE_OVERLAY_RL = ResourceLocation.fromNamespaceAndPath(powergrid_compat.MOD_ID,"misc/in_soap_water");
 
-    public static final DeferredHolder<FluidType, BaseFluidType> SOAP_WATER_FLUID_TYPE=register("soap_water_fluid",
+    public static final DeferredHolder<FluidType, BaseFluidType> DESTABILIZED_REDSTONE_FLUID_TYPE=register("destabilized_redstone_fluid",
             FluidType.Properties.create()
                     .canSwim(false)
                     .sound(SoundAction.get("drink"), SoundEvents.HONEY_DRINK)
@@ -28,8 +28,8 @@ public class ModFluidTypes {
                     .viscosity(5)
     );
     private static DeferredHolder<FluidType, BaseFluidType> register(String name,FluidType.Properties properties){
-        return FLUID_TYPES.register(name, ()-> new BaseFluidType(WATER_STILL_RL,WATER_FLOWING_RL,SOAP_OVERLAY_RL,
-                0xA1E038D0 ,new Vector3f(224f/255f,56f/255f,208f/255f),properties));
+        return FLUID_TYPES.register(name, ()-> new BaseFluidType(WATER_STILL_RL,WATER_FLOWING_RL,DESTABILIZED_REDSTONE_OVERLAY_RL,
+                0xFFA6110A ,new Vector3f(166f/255f,17f/255f,10f/255f),properties));
     }
 
     public static void register(IEventBus eventBus){

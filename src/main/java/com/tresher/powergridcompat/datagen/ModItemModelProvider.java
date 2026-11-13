@@ -15,6 +15,6 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
 
         handheldItem(ModItems.STAGEEDITOR.get());
-        basicItem(ModItems.SOAP_WATER_BUCKET.get());
+        basicItem(ModItems.DESTABILIZED_REDSTONE_BUCKET.get());
     }
 }

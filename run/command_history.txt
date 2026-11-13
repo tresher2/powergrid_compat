@@ -13,3 +13,5 @@
 /reload
 /give Dev powergrid_compat:soap_water_bucket
 /kubejs hand
+/give Dev powergrid_compat:soap_water_bucket
+/give Dev powergrid_compat:destabilized_redstone_bucket

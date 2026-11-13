@@ -26,8 +26,8 @@ public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(powergrid_compat.MOD_ID);
 
-    public static final DeferredBlock<LiquidBlock> SOAP_WATER_BLOCK = BLOCKS.register("soap_water_block",
-            ()->new LiquidBlock(ModFluids.SOURCE_SOAP_WATER.get(), BlockBehaviour.Properties.ofFullCopy(Blocks.WATER)));
+    public static final DeferredBlock<LiquidBlock> DESTABILIZED_REDSTONE_BLOCK = BLOCKS.register("destabilized_redstone_block",
+            ()->new LiquidBlock(ModFluids.SOURCE_DESTABILIZED_REDSTONE.get(), BlockBehaviour.Properties.ofFullCopy(Blocks.WATER)));
 
 
 
