@@ -3,6 +3,7 @@ package com.tresher.powergridcompat.fluid;
 import net.minecraft.resources.ResourceLocation;
 import com.tresher.powergridcompat.powergrid_compat;
 import net.minecraft.sounds.SoundEvents;
+import net.minecraft.world.item.Rarity;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.common.SoundAction;
 import net.neoforged.neoforge.fluids.FluidType;
@@ -26,6 +27,7 @@ public class ModFluidTypes {
                     .lightLevel(2)
                     .density(15)
                     .viscosity(5)
+                    .rarity(Rarity.UNCOMMON)
     );
     private static DeferredHolder<FluidType, BaseFluidType> register(String name,FluidType.Properties properties){
         return FLUID_TYPES.register(name, ()-> new BaseFluidType(WATER_STILL_RL,WATER_FLOWING_RL,DESTABILIZED_REDSTONE_OVERLAY_RL,

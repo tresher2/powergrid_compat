@@ -1,0 +1,14 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "powergrid_compat:destabilized_redstone"
+    }
+  ],
+  "results": [
+    {
+      "amount": 144,
+      "id": "powergrid_compat:destabilized_redstone_fluid"
+    }
+  ]
+}

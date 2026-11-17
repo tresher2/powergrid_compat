@@ -14,7 +14,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
 
-        handheldItem(ModItems.STAGEEDITOR.get());
+        handheldItem(ModItems.DESTABILIZED_REDSTONE.get());
         basicItem(ModItems.DESTABILIZED_REDSTONE_BUCKET.get());
     }
 }

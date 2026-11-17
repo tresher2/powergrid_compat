@@ -5,6 +5,7 @@ import com.tresher.powergridcompat.powergrid_compat;
 import net.minecraft.world.item.BucketItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.Rarity;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -12,14 +13,16 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(powergrid_compat.MOD_ID);
 
-    public static final DeferredItem<Item> STAGEEDITOR = ITEMS.register("stageeditor",
+    public static final DeferredItem<Item> DESTABILIZED_REDSTONE = ITEMS.register("destabilized_redstone",
             () -> new Item(new Item.Properties()
-                    .stacksTo(1)
+                    .rarity(Rarity.UNCOMMON)
+
             ));
     public static final DeferredItem<Item> DESTABILIZED_REDSTONE_BUCKET = ITEMS.register("destabilized_redstone_bucket",
             () -> new BucketItem(ModFluids.SOURCE_DESTABILIZED_REDSTONE.get(),new Item.Properties()
                     .stacksTo(1)
                     .craftRemainder(Items.BUCKET)
+                    .rarity(Rarity.UNCOMMON)
             ));
 
     //дублировать строчку выше, что бы создать ещё предмет, тут можно использовать _,

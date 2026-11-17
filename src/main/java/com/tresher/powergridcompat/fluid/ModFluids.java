@@ -5,6 +5,7 @@ import com.tresher.powergridcompat.block.ModBlocks;
 import com.tresher.powergridcompat.item.ModItems;
 import com.tresher.powergridcompat.powergrid_compat;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.world.item.Rarity;
 import net.minecraft.world.level.material.FlowingFluid;
 import net.minecraft.world.level.material.Fluid;
 import net.neoforged.bus.api.IEventBus;
@@ -21,7 +22,7 @@ public class ModFluids {
                     () -> new BaseFlowingFluid.Source(ModFluids.DESTABILIZED_REDSTONE_FLUID_PROPERTIES));
 
     public static final DeferredHolder<Fluid, BaseFlowingFluid.Flowing> FLOWING_DESTABILIZED_REDSTONE =
-            FLUIDS.register("destabilized_redstone_water",
+            FLUIDS.register("flowing_destabilized_redstone_fluid",
                     () -> new BaseFlowingFluid.Flowing(ModFluids.DESTABILIZED_REDSTONE_FLUID_PROPERTIES));
 
 

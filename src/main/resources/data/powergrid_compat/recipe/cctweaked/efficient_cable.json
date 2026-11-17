@@ -43,13 +43,15 @@
       ]
     },
     {
-      "type": "create:deploying",
+      "type": "create:filling",
       "ingredients": [
         {
           "item": "powergrid:iron_wire"
         },
         {
-          "item": "minecraft:redstone"
+          "type": "neoforge:single",
+          "amount": 144,
+          "fluid": "powergrid_compat:destabilized_redstone_fluid"
         }
       ],
       "results": [
