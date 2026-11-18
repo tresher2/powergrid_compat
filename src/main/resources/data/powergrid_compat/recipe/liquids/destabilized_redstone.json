@@ -1,5 +1,5 @@
 {
-  "type": "create:emptying",
+  "type": "create:mixing",
   "ingredients": [
     {
       "item": "powergrid_compat:destabilized_redstone"

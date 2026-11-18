@@ -1,0 +1,14 @@
+{
+  "type": "powergrid:magnetization",
+  "ingredients": [
+    {
+      "item": "minecraft:redstone_block"
+    }
+  ],
+  "results": [
+    {
+      "count": 9,
+      "id": "powergrid_compat:destabilized_redstone"
+    }
+  ]
+}
