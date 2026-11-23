@@ -7,8 +7,12 @@
   ],
   "results": [
     {
-      "count": 9,
+      "count": 4,
       "id": "powergrid_compat:destabilized_redstone"
+    },
+    {
+      "count": 5,
+      "id": "minecraft:redstone"
     }
   ]
 }

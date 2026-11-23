@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+
+  "pattern":
+  [
+    " C ",
+    "ZPZ"
+  ],
+  "key":
+  {
+    "C": {"item": "computercraft:cable"},
+    "Z": {"item": "create:zinc_nugget"},
+    "P": {"item": "powergrid:pins"}
+  },
+  "result": {"count": 1, "id": "computercraft:wired_modem"}
+}

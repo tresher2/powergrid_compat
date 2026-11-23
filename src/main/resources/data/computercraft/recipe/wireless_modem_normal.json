@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern":
+  [
+    "TIT",
+    " W "
+  ],
+  "key":
+  {
+    "W": {"item": "computercraft:wired_modem"},
+    "T": {"item": "create:transmitter"},
+    "I": {"item": "powergrid:integrated_circuit"}
+  },
+  "result": {"count": 1, "id": "computercraft:wireless_modem_normal"}
+}
