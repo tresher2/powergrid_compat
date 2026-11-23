@@ -2,6 +2,7 @@ package com.tresher.powergridcompat.item;
 
 import com.tresher.powergridcompat.fluid.ModFluids;
 import com.tresher.powergridcompat.powergrid_compat;
+import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BucketItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
@@ -9,6 +10,9 @@ import net.minecraft.world.item.Rarity;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+
+import java.util.List;
+import java.util.Optional;
 
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(powergrid_compat.MOD_ID);
@@ -23,6 +27,10 @@ public class ModItems {
                     .stacksTo(1)
                     .craftRemainder(Items.BUCKET)
                     .rarity(Rarity.UNCOMMON)
+            ));
+    public static final DeferredItem<Item> MICROCONTROLLER = ITEMS.register("microcontroller",
+            () -> new Item(new Item.Properties()
+                    .food(new FoodProperties(-1,0.5F,true,0.7f, Optional.empty(), List.of()))
             ));
 
     //дублировать строчку выше, что бы создать ещё предмет, тут можно использовать _,

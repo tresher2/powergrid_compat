@@ -3,14 +3,14 @@
   "category": "redstone",
   "pattern":
   [
-    "TIT",
+    "TRT",
     " W "
   ],
   "key":
   {
     "W": {"item": "computercraft:wired_modem"},
     "T": {"item": "create:transmitter"},
-    "I": {"item": "powergrid:integrated_circuit"}
+    "R": {"item": "powergrid_compat:microcontroller"}
   },
   "result": {"count": 1, "id": "computercraft:wireless_modem_normal"}
 }

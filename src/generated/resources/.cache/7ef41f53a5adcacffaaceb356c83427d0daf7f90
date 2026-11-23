@@ -1,3 +1,4 @@
-// 1.21.1	2026-11-17T23:19:16.8211903	Item Models: powergrid_compat
-28079720eea443eff13a9609177fae7d80a45d5b assets/powergrid_compat/models/item/destabilized_redstone.json
+// 1.21.1	2026-11-23T20:23:35.2479914	Item Models: powergrid_compat
+39074a2679f991fb0897f03022649f32f18f0763 assets/powergrid_compat/models/item/destabilized_redstone.json
 ad6bebb14d245a781b1137cc7912e12632c7cb4d assets/powergrid_compat/models/item/destabilized_redstone_bucket.json
+de6fe6613e7e6096f2cad4b264187731f7e715b1 assets/powergrid_compat/models/item/microcontroller.json

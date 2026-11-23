@@ -14,7 +14,7 @@
     "G": {"tag": "c:glass_panes"},
     "C": {"tag": "c:copper_coils"},
     "#": {"item": "powergrid:integrated_circuit"},
-    "F": {"item": "powergrid:conductive_casing"},
+    "F": {"item": "powergrid:battery"},
     "P": {"item": "create:precision_mechanism"}
   },
   "result": {"count": 1, "id": "computercraft:computer_normal"}

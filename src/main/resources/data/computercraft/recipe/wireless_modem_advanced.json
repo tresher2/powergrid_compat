@@ -11,7 +11,7 @@
     "W": {"item": "computercraft:wireless_modem_normal"},
     "T": {"item": "create:transmitter"},
     "E": {"item": "minecraft:ender_eye"},
-    "B": {"items":  "create:brass_sheet"}
+    "B": {"item":  "create:brass_sheet"}
   },
   "result": {"count": 1, "id": "computercraft:wireless_modem_advanced"}
 }

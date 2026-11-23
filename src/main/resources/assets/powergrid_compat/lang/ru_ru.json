@@ -2,5 +2,6 @@
   "item.powergrid_compat.destabilized_redstone": "Нестабильный редстоун",
   "item.powergrid_compat.destabilized_redstone_bucket": "Ведро нестабильного редстоуна",
   "block.powergrid_compat.destabilized_redstone_block": "Нестабильный редстоун",
-  "fluid_type.powergrid_compat.destabilized_redstone_fluid": "Нестабильный редстоун"
+  "fluid_type.powergrid_compat.destabilized_redstone_fluid": "Нестабильный редстоун",
+  "item.powergrid_compat.microcontroller": "Микроконтроллер"
 }

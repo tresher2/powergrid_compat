@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern":
+  [
+    "RG ",
+    "BMB",
+    " C "
+  ],
+  "key":
+  {
+    "G": {"item": "minecraft:glass_pane"},
+    "M": {"item": "powergrid:crt"},
+    "C": {"item": "powergrid:conductive_casing"},
+    "R": {"item": "powergrid_compat:microcontroller"},
+    "B": {"item": "create:brass_sheet"}
+  },
+  "result": {"count": 1, "id": "computercraft:monitor_advanced"}
+}
